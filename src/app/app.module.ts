@@ -9,6 +9,7 @@ import { Section1Component } from './home/section1/section1.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContattaciComponent } from './contattaci/contattaci.component';
 import { DoveSiamoComponent } from './dove-siamo/dove-siamo.component';
+import { GalleriaComponent } from './galleria/galleria.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DoveSiamoComponent } from './dove-siamo/dove-siamo.component';
     Section1Component,
     MenuComponent,
     ContattaciComponent,
-    DoveSiamoComponent
+    DoveSiamoComponent,
+    GalleriaComponent
   ],
   imports: [
     BrowserModule,
