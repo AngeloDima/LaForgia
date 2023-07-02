@@ -25,3 +25,9 @@ img{
 .benvenuti h3{
   padding: 10px 0px 25px 0px;
 }
+
+
+.benvenuti button{
+  margin-top: 40px;
+  padding: 20px 40px;
+}
