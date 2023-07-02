@@ -1,0 +1,7 @@
+.sfondo{
+  width: 100%;
+  height: 500vh;
+  background-image: url('img/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+}
