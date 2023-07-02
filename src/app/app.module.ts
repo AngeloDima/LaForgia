@@ -5,14 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { Section1Component } from './home/section1/section1.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
+
+import { MenuComponent } from './menu/menu.component';
+import { ContattaciComponent } from './contattaci/contattaci.component';
+import { DoveSiamoComponent } from './dove-siamo/dove-siamo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     Section1Component,
-    NavBarComponent
+    MenuComponent,
+    ContattaciComponent,
+    DoveSiamoComponent
   ],
   imports: [
     BrowserModule,
