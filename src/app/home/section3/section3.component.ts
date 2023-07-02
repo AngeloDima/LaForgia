@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-section3',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Section3Component {
 
+  @Input()
+  p: any
 }
