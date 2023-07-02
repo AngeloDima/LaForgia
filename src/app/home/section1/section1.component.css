@@ -7,9 +7,12 @@
 }
 
 .content{
-  width: 90%;
-  height: 90%;
-  background-color: rgba(0, 255, 255, 0.349);
+  width: 95%;
+  height: 95%;
+  background-color: rgba(0, 255, 221, 0.438);
 }
 
+.logo{
+  text-align: center;
+}
 
