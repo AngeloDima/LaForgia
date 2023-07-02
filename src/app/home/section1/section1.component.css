@@ -1,0 +1,13 @@
+.lavagna{
+  width: 100%;
+  height: 35%;
+  background-color: rgba(255, 0, 0, 0.219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  width: 90%;
+  height: 95%;
+
+}
