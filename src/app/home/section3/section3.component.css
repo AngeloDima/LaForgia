@@ -1,8 +1,6 @@
 .card{
-  width: 400px;
   text-align: center;
-  border: 3px solid red;
-  padding: 20px;
+  border: 2px solid red;
 }
 
 
