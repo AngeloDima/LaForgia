@@ -26,12 +26,15 @@
 .carousel-content {
   display: flex;
   transition: transform 0.3s ease-in-out;
+  scroll-behavior: smooth;
 }
 
 .carousel-item {
   flex: 0 0 400px;
   padding: 10px;
+  transition: transform 0.3s ease-in-out;
 }
+
 *{
   overflow-x: hidden;
 }
