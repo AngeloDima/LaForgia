@@ -57,6 +57,19 @@ export class HomeComponent {
     },
 
   ];
+  scrollCarousel(direction: string) {
+    const carouselContent = document.querySelector('.carousel-content') as HTMLElement;
+    const itemWidth = document.querySelector('.carousel-item')?.clientWidth || 0;
+    const scrollStep = itemWidth + 100; // Adjust the value of 20 as needed for margin/padding
+
+    if (direction === 'left') {
+      carouselContent.scrollLeft -= scrollStep;
+    } else if (direction === 'right') {
+      carouselContent.scrollLeft += scrollStep;
+    }
+  }
+
+
 }
 
 

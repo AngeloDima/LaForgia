@@ -16,12 +16,15 @@
     <app-section1></app-section1>
     <app-section2></app-section2>
 
-    <div class="flex">
-      <button>Sinistra</button>
-      <app-section3 class="dd" *ngFor="let p of datiPizze" [p]="p"></app-section3>
-      <button>Destra</button>
+    <div class="carousel">
+      <button (click)="scrollCarousel('left')" class="carousel-btns">Sinistra</button>
+      <div class="carousel-content">
+        <div class="carousel-item" *ngFor="let p of datiPizze">
+          <app-section3 [p]="p"></app-section3>
+        </div>
+      </div>
+      <button (click)="scrollCarousel('right')" class="carousel-btnd">Destra</button>
     </div>
-
 
   </div>
 </div>

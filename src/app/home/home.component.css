@@ -1,12 +1,37 @@
-.flex{
-  display: flex;
+.carousel {
+  position: relative;
   width: 100%;
   height: 500px;
 
-
 }
 
-.dd{
-  min-width: 400px;
+.carousel-btns {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  min-width: 100px;
+  height: 80px;
+}
 
+.carousel-btnd {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  min-width: 100px;
+  height: 80px;
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 400px;
+  padding: 10px;
+}
+*{
+  overflow-x: hidden;
 }
