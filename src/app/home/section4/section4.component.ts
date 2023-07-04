@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class Section4Component {
 
+
+  Foto: any[] = [
+    { foto: "https://www.robertosibilano.it/wp-content/uploads/2016/10/foto-allestimenti-interni-bar-locali-immagine-incentivante-3.jpg" },
+    { foto: "https://www.robertosibilano.it/wp-content/uploads/2016/10/foto-allestimenti-interni-bar-locali-immagine-incentivante-3.jpg" },
+    { foto: "https://www.robertosibilano.it/wp-content/uploads/2016/10/foto-allestimenti-interni-bar-locali-immagine-incentivante-3.jpg" },
+    { foto: "https://www.robertosibilano.it/wp-content/uploads/2016/10/foto-allestimenti-interni-bar-locali-immagine-incentivante-3.jpg" },
+    { foto: "https://www.robertosibilano.it/wp-content/uploads/2016/10/foto-allestimenti-interni-bar-locali-immagine-incentivante-3.jpg" },
+    { foto: "https://www.robertosibilano.it/wp-content/uploads/2016/10/foto-allestimenti-interni-bar-locali-immagine-incentivante-3.jpg" },
+  ]
+
+
 }

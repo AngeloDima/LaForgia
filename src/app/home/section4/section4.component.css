@@ -1,0 +1,17 @@
+.container4{
+  width: 100%;
+  background-color: rgba(200, 255, 0, 0.363);
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 90px;
+  padding: 30px;
+}
+
+
+img{
+  width: 350px;
+  height: 350px;
+}
