@@ -12,6 +12,7 @@ import { DoveSiamoComponent } from './dove-siamo/dove-siamo.component';
 import { GalleriaComponent } from './galleria/galleria.component';
 import { Section2Component } from './home/section2/section2.component';
 import { Section3Component } from './home/section3/section3.component';
+import { Section4Component } from './home/section4/section4.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { Section3Component } from './home/section3/section3.component';
     DoveSiamoComponent,
     GalleriaComponent,
     Section2Component,
-    Section3Component
+    Section3Component,
+    Section4Component
   ],
   imports: [
     BrowserModule,

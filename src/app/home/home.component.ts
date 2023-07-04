@@ -57,6 +57,9 @@ export class HomeComponent {
     },
 
   ];
+
+
+
   scrollCarousel(direction: string) {
     const carouselContent = document.querySelector('.carousel-content') as HTMLElement;
     const itemWidth = document.querySelector('.carousel-item')?.clientWidth || 0;
