@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { NgxMapLibreGLModule } from '@maplibre/ngx-maplibre-gl';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -25,7 +25,8 @@ import { Section5Component } from './home/section5/section5.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxMapLibreGLModule
   ],
   providers: [],
   bootstrap: [AppComponent]
