@@ -18,6 +18,9 @@ export class Section1Component implements OnInit {
     }
   ];
 
+
+
+
   currentSlideIndex = 0;
 
   ngOnInit() {
