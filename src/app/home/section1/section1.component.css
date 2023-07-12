@@ -56,17 +56,20 @@ img{
 
 .bannerTitolo h3{
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   font-size: 2.3rem;
-  transform: translate(-54%, -70%);
+  transform: translate(-54%, -100%);
 }
 
 
 
 
-.benvenuti h3{
+#Presenta{
   padding: 10px 0px 25px 0px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(255, 102, 0);
+  font-size: 1.3rem;
 }
 
 
