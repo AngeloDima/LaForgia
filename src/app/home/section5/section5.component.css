@@ -1,7 +1,7 @@
 
 
 *{
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .containerMaster{
@@ -22,8 +22,16 @@
   width: 100%;
   height: 20%;
   background-color: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+.upSec h1{
+  color: white;
+}
 
 .downSec{
   width: 100%;
@@ -40,14 +48,39 @@
 }
 
 
+.sx h2{
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 1.6rem;
+}
+
+
+.sx p{
+  margin: 0px 0px 40px 30px;
+  font-size: 1.2rem;
+}
+
+
 .dx{
   width: 55%;
   height: 100%;
   background-color: antiquewhite;
-  padding: 20px
+  padding: 20px;
+  position: relative;
+
 }
 
 .dx img{
   width: 100%;
   height: 100%;
 }
+
+
+.mappaContent{
+  width: 82%;
+  height: 73%;
+  position: absolute;
+  top: 9%;
+  left: 8.8%;
+}
+

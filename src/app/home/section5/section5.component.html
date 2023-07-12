@@ -1,24 +1,20 @@
 <div class="containerMaster">
   <div class="upSec">
-    <h1>UP</h1>
+    <h1>Ecco dove ci troviamo</h1>
   </div>
   <div class="downSec">
     <div class="sx">
-      <h1>Sx</h1>
+      <h2>Contatti</h2>
+      <p>Telefono: <span>+39 123 456 7890</span></p>
+      <p>Email: <span>Locale@gmail.com</span></p>
+      <p>Indirizzo: <span>Via Principe N...</span></p>
+      <p>Orari: <span>18-22:30</span></p>
     </div>
     <div class="dx">
       <img src="assets/img/map.png" alt="">
+      <mgl-map [style]="'https://api.maptiler.com/maps/streets/style.json?key=hhnZiUK0XU67qrDAkov7'" [zoom]="[17]"
+        [center]="[15.219103, 37.2294372]" class="mappaContent">
+      </mgl-map>
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-<!-- <mgl-map [style]="'https://api.maptiler.com/maps/streets/style.json?key=hhnZiUK0XU67qrDAkov7'" [zoom]="[17]"
-  [center]="[15.219103, 37.2294372]" class="mappaContent">
-</mgl-map> -->
