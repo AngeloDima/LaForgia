@@ -48,6 +48,23 @@ img{
   /* border: 1px solid red; */
 }
 
+.bannerTitolo{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.bannerTitolo h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2.3rem;
+  transform: translate(-54%, -70%);
+}
+
+
+
+
 .benvenuti h3{
   padding: 10px 0px 25px 0px;
 }
