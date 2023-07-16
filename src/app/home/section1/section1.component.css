@@ -84,7 +84,48 @@ img{
 }
 
 
-.benvenuti button{
-  margin-top: 40px;
-  padding: 20px 40px;
+
+.ciao {
+  width: 100%;
+  height: 150px;
+  /* background-color: #ff7b2321; */
+  position: relative;
 }
+
+button {
+  margin-top: 40px;
+  padding: 20px 80px;
+  color: white;
+  z-index: 300;
+  position: absolute;
+  right: 41%;
+  bottom: 30%;
+  background-color: rgb(29 29 29);
+  border: 2px solid white;
+}
+
+
+button:active {
+  background-color: rgb(37, 37, 37);
+  box-shadow: 0 0 6px 2px #ffffffbb inset;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+
+.sot {
+  position: absolute;
+  width: 16%;
+  height: 40%;
+  bottom: 24.5%;
+  left: 43.5%;
+  z-index: 200;
+  border: 2px solid white;
+}
+
+
+
+
+
