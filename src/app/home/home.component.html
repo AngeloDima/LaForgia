@@ -17,13 +17,13 @@
 
     <!-- CAROSELLO -->
     <div class="carousel">
-      <button (click)="scrollCarousel('left')" class="carousel-btns">Sinistra</button>
+      <button (click)="scrollCarousel('left')" class="carousel-btns"></button>
       <div class="carousel-content">
         <div class="carousel-item" *ngFor="let p of datiPizze">
           <app-section3 [p]="p"></app-section3>
         </div>
       </div>
-      <button (click)="scrollCarousel('right')" class="carousel-btnd">Destra</button>
+      <button (click)="scrollCarousel('right')" class="carousel-btnd"></button>
     </div>
 
 
