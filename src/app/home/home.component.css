@@ -48,7 +48,7 @@ a{
 
 .carousel-btns {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
   transform: translateY(-50%);
   min-width: 100px;
@@ -58,12 +58,12 @@ a{
   background-color: rgba(240, 248, 255, 0);
   background-repeat: no-repeat;
   background-position: center;
-  /* border: none */
+  border: none
 }
 
 .carousel-btnd {
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 0;
   transform: translateY(-50%);
   min-width: 100px;
@@ -73,17 +73,20 @@ a{
   background-color: rgba(240, 248, 255, 0);
   background-repeat: no-repeat;
   background-position: center;
-  /* border: none; */
+  border: none;
 }
 
+
+/* CAROSELLO CONTENITORE DELLE PIZZE */
 .carousel-content {
   display: flex;
   transition: transform 0.3s ease-in-out;
   scroll-behavior: smooth;
-    width: 86%;
+    width: 85%;
     /* background-color: aquamarine; */
     margin: auto;
     overflow-x: hidden;
+
 }
 
 .carousel-item {
