@@ -5,8 +5,11 @@
 }
 
 h1{
+  font-family: 'Lobster';
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
   text-align: center;
-  padding-bottom: 40px;
 }
 
 .contentPizza{
@@ -30,15 +33,68 @@ img{
 .dx h2{
   padding-top: 100px;
   padding-bottom: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 1.8rem;
+  color: #dfdfdf;
 }
 
 .dx h3{
   padding-bottom: 15px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 1.3rem;
+  color: #d4d4d4;
 }
 
-button{
-  padding: 20px 40px;
-  position: absolute;
-  bottom: 25%;
-  left: 0;
+.dx p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+  color: #cacaca;
 }
+
+
+
+
+button {
+  margin-top: 40px;
+  padding: 20px 80px;
+  color: white;
+  z-index: 300;
+  position: absolute;
+  right: 41%;
+  bottom: 30%;
+  background-color: rgb(29 29 29);
+  border: 2px solid white;
+}
+
+
+button:active {
+  background-color: rgb(37, 37, 37);
+  box-shadow: 0 0 6px 2px #ffffffbb inset;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+
+.sot {
+  position: absolute;
+  width: 36%;
+  height: 10%;
+  bottom: 28.5%;
+  left: 24.5%;
+  z-index: 200;
+  border: 2px solid white;
+}
+
