@@ -98,13 +98,16 @@ img{
 button {
   margin-top: 40px;
   padding: 20px 80px;
-  color: white;
+  color: #ffc600;
   z-index: 300;
   position: absolute;
   right: 41%;
   bottom: 30%;
   background-color: rgb(29 29 29);
   border: 2px solid white;
+  font-family: 'Bitter';
+  font-size: 20px;
+  letter-spacing: 4px;
 }
 
 
@@ -120,10 +123,10 @@ button:active {
 
 .sot {
   position: absolute;
-  width: 16%;
+  width: 20%;
   height: 40%;
   bottom: 24.5%;
-  left: 43.5%;
+  left: 39.5%;
   z-index: 200;
   border: 2px solid white;
 }
@@ -148,10 +151,10 @@ button:active {
 .pane{
   background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/bread.png);
   width: 20%;
-  height: 80%;
+  height: 70%;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 0%;
+  bottom: 18%;
   left: 0px;
   background-size: contain;
   z-index: 900;
@@ -159,3 +162,34 @@ button:active {
 
 
 
+
+.divisore{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/divider1_px.png);
+  width: 83%;
+  height: 2px;
+  margin: 80px auto;
+  position: relative;
+}
+
+
+.prima{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/divider1_left.png);
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 5%;
+  bottom: 6.6%;
+  background-repeat: no-repeat;
+}
+
+
+
+.dopo{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/divider1_right.png);
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  right: 0%;
+  bottom: 6.4%;
+  background-repeat: no-repeat;
+}

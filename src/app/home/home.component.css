@@ -128,3 +128,14 @@ a{
 
 
 
+
+.farina{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/flour.png);
+  position: absolute;
+  top: 176%;
+  right: 0%;
+  width: 9%;
+  height: 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
