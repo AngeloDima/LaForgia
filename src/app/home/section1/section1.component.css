@@ -30,10 +30,41 @@ img{
   position: absolute;
   top: 5%;
   left: 7.6%;
-  background-color: rgba(0, 0, 0, 0.644);
+  background-color: rgba(0, 0, 0, 0.712);
+
 }
 
 
+.blocco h2{
+  font-family: 'Lobster';
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  margin: 70px 30px 15px 30px;
+}
+
+
+.blocco h3{
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-size: 25px;
+
+  color: #ff7b23;
+  font-style: italic;
+  text-align: center;
+}
+
+
+.blocco h4{
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+  margin-top: 100px;
+}
 
 
 
