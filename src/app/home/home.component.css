@@ -155,3 +155,59 @@ a{
 }
 
 
+.a{
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.coltello{
+    background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/knife2.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 170px;
+    height: 722px;
+}
+
+
+.forchetta{
+    background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/fork.png);
+    position: absolute;
+    top: 0%;
+    left: -3%;
+    width: 362px;
+    height: 475px;
+    transform: rotate(350deg);
+}
+
+.s{
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(255, 0, 0, 0.144); */
+  position: relative;
+}
+
+.formaggio{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/cheese.png);
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 165px;
+  height: 289px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.pomodoro{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/footer.png);
+  position: absolute;
+  top: 607%;
+  left: 5%;
+  width: 400px;
+  height: 447px;
+  background-repeat: no-repeat;
+}

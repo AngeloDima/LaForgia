@@ -14,6 +14,7 @@
   overflow-y: hidden;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 
@@ -94,3 +95,15 @@
   left: 8.8%;
 }
 
+
+
+.farina3{
+    background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/flour.png);
+    position: absolute;
+    top: 12%;
+    left: 32%;
+    width: 23%;
+    height: 41%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
