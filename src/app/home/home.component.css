@@ -139,3 +139,19 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+.farina2{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/flour.png);
+  position: absolute;
+  top: 295%;
+  left: 0%;
+  width: 15%;
+  height: 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+
+

@@ -8,10 +8,45 @@
 
   gap: 40px;
   padding: 30px;
+  position: relative;
 }
 
 
 img{
 width: 400px;
 height: 280px;
+}
+
+
+
+
+.divisore{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/divider1_px.png);
+  width: 83%;
+  height: 2px;
+  margin: 80px auto;
+  position: relative;
+}
+
+
+.prima{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/divider1_left.png);
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 6%;
+  bottom: 5%;
+  background-repeat: no-repeat;
+}
+
+
+
+.dopo{
+  background-image: url(https://demo.gridgum.com/bootstrap/pizza-store/PIZZA/images/divider1_right.png);
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  right: 1%;
+  bottom: 5%;
+  background-repeat: no-repeat;
 }
