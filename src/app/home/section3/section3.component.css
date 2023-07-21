@@ -7,17 +7,24 @@
 
 
 h2{
-  padding: 10px 0px 15px 0px;
-  font-size: 2rem;
+  font-family: 'Lobster';
+  font-size: 36px;
+  color: #e7e7e7;
 }
 
 p{
-  padding: 0px 0px 8px 0px;
-  font-size: 1.1rem;
+  font-size: 22px;
+  color: #d3d3d3;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
 }
 
 h5{
-  font-size: 1.2rem;
+  font-size: 26px;
+  color: #bebebe;
+
+
 }
 
 
