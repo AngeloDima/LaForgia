@@ -9,52 +9,78 @@ export class HomeComponent {
   datiPizze: any[] = [
     {
       foto: "/assets/img/pizza1CAR.png",
-      nome: "pizza1",
+      nome: "Margherita",
+      descrizione: "pizza descrizione",
+      prezzo: 5,
+    },
+    {
+      foto: "/assets/img/pizza1CAR.png",
+      nome: "Capricciosa",
       descrizione: "pizza descrizione",
       prezzo: 10,
     },
     {
       foto: "/assets/img/pizza1CAR.png",
-      nome: "pizza2",
+      nome: "Pata pizza",
       descrizione: "pizza descrizione",
       prezzo: 10,
     },
     {
       foto: "/assets/img/pizza1CAR.png",
-      nome: "pizza1",
+      nome: "4 Formaggi",
       descrizione: "pizza descrizione",
       prezzo: 10,
     },
     {
       foto: "/assets/img/pizza1CAR.png",
-      nome: "pizza2",
+      nome: "Boscaiola",
       descrizione: "pizza descrizione",
       prezzo: 10,
     },
     {
       foto: "/assets/img/pizza1CAR.png",
-      nome: "pizza1",
+      nome: "Elisa",
       descrizione: "pizza descrizione",
       prezzo: 10,
     },
     {
       foto: "/assets/img/pizza1CAR.png",
-      nome: "pizza2",
+      nome: "Bianca",
       descrizione: "pizza descrizione",
       prezzo: 10,
     },
     {
       foto: "/assets/img/pizza1CAR.png",
-      nome: "pizza1",
+      nome: "Marinara",
       descrizione: "pizza descrizione",
       prezzo: 10,
     },
     {
       foto: "/assets/img/pizza1CAR.png",
-      nome: "pizza2",
+      nome: "Quattro stagioni",
       descrizione: "pizza descrizione",
       prezzo: 10,
     },
+    {
+      foto: "/assets/img/pizza1CAR.png",
+      nome: "Diavola",
+      descrizione: "pizza descrizione",
+      prezzo: 10,
+    },
+    {
+      foto: "/assets/img/pizza1CAR.png",
+      nome: "Romana",
+      descrizione: "pizza descrizione",
+      prezzo: 10,
+    },
+    {
+      foto: "/assets/img/pizza1CAR.png",
+      nome: "Vegetariana",
+      descrizione: "pizza descrizione",
+      prezzo: 10,
+    },
+
+
 
   ];
 
