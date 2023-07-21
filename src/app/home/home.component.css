@@ -39,6 +39,7 @@ a{
 .carousel {
   position: relative;
   width: 100%;
+  margin-bottom: 90px;
   /* height: 500px; */
   /* background-color: red; */
 }
